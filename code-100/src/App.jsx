@@ -10,7 +10,7 @@ function App() {
 
       <div className="container">
       <p>1. Random Meal Generator</p>
-      <hr />
+      <div className="rule"></div>
       </div>
 
       
