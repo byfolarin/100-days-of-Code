@@ -12,6 +12,8 @@ function App() {
       <p>1. Random Meal Generator</p>
       </div>
 
+      <hr />
+
       <RandomMeal />
     </>
   )
