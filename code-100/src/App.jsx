@@ -1,4 +1,4 @@
-import './App.css'
+ import RandomMeal from "./RandomMeal"
 
 function App() {
 
@@ -7,7 +7,12 @@ function App() {
     <>
       <h1>100 days of Code</h1>
 
+
+      <div className="container">
       <p>1. Random Meal Generator</p>
+      </div>
+
+      <RandomMeal />
     </>
   )
 }
