@@ -9,11 +9,12 @@ function App() {
 
 
       <div className="container">
-      <p>1. Random Meal Generator</p>
-      <div className="rule"></div>
-      <p>Day 1</p>
+      <p>1. Random Meal Generator</p> <div className="rule"></div> <p>Day 1</p>
       </div>
 
+      <div className="container">
+      <p>2. Mood Calendar</p> <div className="rule"></div> <p>Day 2</p>
+      </div>
       
 
       <RandomMeal />
