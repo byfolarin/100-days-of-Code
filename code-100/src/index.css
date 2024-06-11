@@ -74,3 +74,8 @@ h1 {
   height: 1px;
   background-color: rgba(210, 210, 210, 0.87);
 }
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+}

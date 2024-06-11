@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 
 const Mainpage = () => {
 
-    const [conditions, setConditions] = useState('');
-
     const details = [
             {
                 id: 1,
@@ -19,9 +17,18 @@ const Mainpage = () => {
     ]
 
 
-    const deets = details.map(item =>{
-         <li key={item.id}>{item.task}</li>
-    })
+    const deets = details.slice(0, 1).map(item =>(
+         <li key={item.id}> {item.id}  {item.task} </li>
+    ))
+
+    const sets = details.slice(1, 2).map(item =>(
+        <li key={item.id}> {item.id}  {item.task} </li>
+   ))
+
+   const deetz = details.slice(2, 3).map(item =>(
+    <li key={item.id}> {item.id}  {item.task} </li>
+))
+
 
 
   return (
@@ -33,7 +40,7 @@ const Mainpage = () => {
       </div>
 
       <div className="container">
-            <p>2. Mood Calendar</p>
+            <p>{sets}</p>
             <div className="rule"></div>
             <p>Day 2</p>
       </div>
