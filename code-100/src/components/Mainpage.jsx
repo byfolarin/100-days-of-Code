@@ -25,10 +25,6 @@ const Mainpage = () => {
         <li key={item.id}> {item.id}  {item.task} </li>
    ))
 
-   const deetz = details.slice(2, 3).map(item =>(
-    <li key={item.id}> {item.id}  {item.task} </li>
-))
-
 
 
   return (
