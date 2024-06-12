@@ -25,6 +25,8 @@ const Mainpage = () => {
         <li key={item.id}> {item.id}  {item.task} </li>
    ))
 
+        const body = 2;
+
 
 
   return (
