@@ -9,7 +9,8 @@ export const userProvider = ({children}) =>{
         id: indexedDB,
         name: "John",
         email: "Johndoe@gmail.com",
-        dob: "01/01/2022"
+        dob: "01/01/2022",
+        not: "01/01/2022"
     })
     return <UserContext.Provider value={user}>     
     </UserContext.Provider>
