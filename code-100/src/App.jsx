@@ -1,5 +1,4 @@
- import RandomMeal from "./RandomMeal"
- import Mainpage from "./components/Mainpage"
+import Mainpage from "./Mainpage"
 
 function App() {
 
@@ -8,7 +7,6 @@ function App() {
     <>
       <h1>100 days of Code</h1>
       <Mainpage/>
-      <RandomMeal />
     </>
   )
 }

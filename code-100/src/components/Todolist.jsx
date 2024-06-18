@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RandomMeal = () => {
+const Todolist = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const RandomMeal = () => {
   )
 }
 
-export default RandomMeal
+export default Todolist

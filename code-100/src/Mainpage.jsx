@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Todolist from './components/Todolist'
 
 const Mainpage = () => {
 
@@ -32,23 +33,13 @@ const Mainpage = () => {
   return (
     <div>
       <div className="container">
-            <p>{deets}</p> 
+            <p>TodoList</p> 
             <div className="rule"></div>
             <p>Day 1</p>
       </div>
+      <Todolist />
 
-      <div className="container">
-            <p>{sets}</p>
-            <div className="rule"></div>
-            <p>Day 2</p>
-      </div>
 
-      <div className="container">
-            <p>3. Double Noise flow field</p>
-            <div className="rule"></div> 
-            <p>Day 3</p>
-      </div>
-      
     </div>
   )
 }
