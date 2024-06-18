@@ -79,3 +79,12 @@ li{
   text-decoration: none;
   list-style-type: none;
 }
+
+link{
+  text-decoration: none;
+  color: white;
+}
+
+.display-title{
+  display: flex;
+}
