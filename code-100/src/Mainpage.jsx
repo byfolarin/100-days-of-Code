@@ -5,17 +5,16 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; // Import
 const Mainpage = () => {
   return (
     <>
+      <h1>100 Days of Code</h1>
 
-            <h1>100 Days of Code</h1>
-
-            <ul className='container'>
-            <li className='display-title'>
-            <Link to="/Todolist"> 
-                  <p>Todolist</p>
-                  <div className='rule'></div>
-                  <p>Day 1</p>
-            </Link>
-            </li>
+      <ul className='container'>
+            <li >
+                        <Link to="/Todolist" className='display-title'> 
+                              <p>Todolist</p>
+                              <div className='rule'></div>
+                              <p>Day 1</p>
+                        </Link>
+                   </li>
             </ul>
 
     </>
