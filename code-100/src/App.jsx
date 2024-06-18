@@ -8,13 +8,18 @@ function App() {
     <BrowserRouter>
     
       <>
-        <h1>100 Days of Code</h1>
-        <Mainpage />
+      
       </>
 
       <Routes>
-        <Route path="/Mainpage" element={<Mainpage />} />
+        <Route path="/" element={<Mainpage />} />
       </Routes>
+
+      <>
+      
+      </>
+
+
     </BrowserRouter>
   );
 }

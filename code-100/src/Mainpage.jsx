@@ -6,6 +6,8 @@ const Mainpage = () => {
   return (
     <>
 
+            <h1>100 Days of Code</h1>
+
             <ul className='container'>
             <li className='display-title'>
             <Link to="/Todolist"> 
