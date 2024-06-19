@@ -5,10 +5,6 @@ import { Link } from 'react-router-dom'; // Import React Router components
 
 const Mainpage = () => {
 
-
-      
-
-
   return (
     <>
       <h1>100 Days of Code</h1>
