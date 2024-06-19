@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; // Import React Router components
+import { Link } from 'react-router-dom'; // Import React Router components
+import Todolist from './components/Todolist';
 
 
 const Mainpage = () => {
@@ -7,16 +8,24 @@ const Mainpage = () => {
     <>
       <h1>100 Days of Code</h1>
 
-      <ul className='container'>
-            <li >
-                        <Link to="/Todolist" className='display-title'> 
-                              <p>Todolist</p>
-                              <div className='rule'></div>
-                              <p>Day 1</p>
+      <div className="task-grid">
+            <div className="grid-item">
+                  <p className='item-p' >
+                        <Link to="/Todolist">
+                               Todolist
                         </Link>
-                   </li>
-            </ul>
+                  </p>
+            </div>
 
+             <div className="grid-item">
+
+            </div>
+
+             <div className="grid-item">
+
+            </div>
+      </div>
+           
     </>
   )
 }
