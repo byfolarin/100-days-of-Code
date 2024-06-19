@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     
       <>
-      
+      <h4><Link to={"/"}>Home</Link></h4>
       </>
 
       <Routes>
