@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'; // Import React Router components
+import todoimg from '../public/images/Todo-List.png'
 
 
 
@@ -16,16 +17,17 @@ const Mainpage = () => {
                                Todolist
                         </Link>
                   </p>
-                 
+            </div>
+
+             <div className="grid-item">
+              
             </div>
 
              <div className="grid-item">
 
             </div>
 
-             <div className="grid-item">
-
-            </div>
+            
       </div>
            
     </>
