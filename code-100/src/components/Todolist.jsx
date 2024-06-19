@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Modal from './unused comp/Modal'
 
-const Todolist = ({input, setInput}) => {
+const Todolist = () => {
+
+    const [input, setInput] = useState("");
+    const [arrList, setArrList] = useState([]);
 
 function getInput(e){
     setInput(e.target.value);
 }
-
-console.log(setInput)
 
 
   

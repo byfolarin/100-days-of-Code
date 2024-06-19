@@ -8,8 +8,7 @@ import TodoItem from './components/TodoItem';
 // Main App component
 function App() {
 
-  const [input, setInput] = useState("");
-  const [arrList, setArrList] = useState([]);
+ 
   return (
     <BrowserRouter>
     
@@ -20,13 +19,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Mainpage />} />
         <Route path="/Todolist" element={<Todolist
-          input = {input} setInput = {setInput}
-          arrList = {arrList} setArrList = {setArrList}
+          
         />} />
 
       <Route path="/TodoItem" element={<TodoItem
-          input = {input}
-          arrList = {arrList} setArrList = {setArrList}
+         
         />} />
       </Routes>
 
