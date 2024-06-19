@@ -176,3 +176,19 @@ input[type="text"]:focus{
   height: 0.5px;
   background-color: rgb(53, 53, 53);
 }
+
+li{
+  font-family: "Instrument Serif", serif;
+  font-size: 20px;
+  margin: 6px 0px;
+  padding: 12px;
+}
+
+li:hover{
+  background-color: #313131;
+}
+
+.list-keys{
+  display: flex;
+  justify-content: space-between;
+}
