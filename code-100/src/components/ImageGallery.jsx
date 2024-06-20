@@ -8,7 +8,9 @@ const ImageGallery = () => {
         <img src={img1} alt="" />
       </div>
       <div className="grid-img">
-        <div className="img-1 slide"></div>
+        <div className="img-1 slide">
+             <img src={img1} alt="" />
+        </div>
         <div className="img-2 slide"></div>
         <div className="img-3 slide"></div>
         <div className="img-3 slide"></div>
