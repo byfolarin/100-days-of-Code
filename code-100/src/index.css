@@ -213,3 +213,15 @@ li:hover{
   height: 60vh;
   background-color: #808080;
 }
+
+.grid-img{
+  margin: 32px 0px;
+  display: flex;
+  gap: 8px;
+}
+
+.slide{
+  background-color: #808080;
+  width: 64px;
+  height: 64px;
+}
