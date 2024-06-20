@@ -216,6 +216,15 @@ li:hover{
   background-color: #808080;
 }
 
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or use 'contain' as needed */
+  object-position: calc(50% + 0px) -90px
+}
+
+
 .pointer-arr {
   width: 100%;
   position: absolute; /* Position pointers relative to the image */
@@ -224,6 +233,10 @@ li:hover{
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+
+.pointer-img {
+  color: white;
 }
 
 .pointer {
@@ -247,12 +260,7 @@ li:hover{
   margin-right: -20px; /* Adjust for half pointer width */
 }
 
-.img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Or use 'contain' as needed */
-  object-position: calc(50% + 0px) -90px
-}
+
 
 .grid-img{
   margin: 32px 0px;
