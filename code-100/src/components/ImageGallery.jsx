@@ -10,22 +10,15 @@ const ImageGallery = () => {
     <div>
 
 
-      
+                <div className="img-container">
+                    <img src={img1} alt="" />
 
+                    <div className="pointer-arr">
+                     <div className="pointer pointer-left"></div>
+                     <div className="pointer pointer-right"></div>
+                 </div>
 
-
-
-      <div className="img-container">
-        
-        <img src={img1} alt="" />
-
-
-        <div className="pointer-arr">
-            <div className="left pointer"></div>
-            <div className="right pointer"></div>
-        </div>
-
-      </div>
+                </div>
 
 
 

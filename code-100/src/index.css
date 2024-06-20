@@ -214,30 +214,40 @@ li:hover{
   width: 100%;
   height: 60vh;
   background-color: #808080;
-  display: flex;
+}
+
+.pointer-arr {
+  width: 100%;
+  position: absolute; /* Position pointers relative to the image */
+  top: 50%; /* Center pointers vertically */
+  display: flex; /* Allow pointers to align side-by-side */
+  justify-content: space-between;
   align-items: center;
-}
-
-.pointer-arr{
- 
-  display: flex;
-  justify-content: space-evenly;
-  z-index: 2;
-  gap: 16px;
-}
-
-
-.pointer{
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background-color: orangered;
   cursor: pointer;
 }
 
+.pointer {
+  width: 40px;
+  height: 40px; 
+  background-color: red; /* Assuming you want red pointers */
+  transition: background-color 0.2s ease-in-out; 
+}
+
+.pointer:hover {
+  background-color: rgb(97, 19, 19); /* Change color on hover */
+}
+
+
+.pointer-left {
+  margin-left: -20px; /* Adjust for half pointer width */
+}
+
+
+.pointer-right {
+  margin-right: -20px; /* Adjust for half pointer width */
+}
 
 .img-container img {
-  position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover; /* Or use 'contain' as needed */
