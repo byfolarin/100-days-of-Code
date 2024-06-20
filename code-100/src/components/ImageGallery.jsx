@@ -13,12 +13,19 @@ const ImageGallery = () => {
 
 
          <div className="img-container">
-            
+
             <img src={img1} alt="" />
 
             <div className="pointer-arr">
-             <div className="pointer pointer-left"><img className='pointer-img' src={arrowleft} alt="" /></div>
-             <div className="pointer pointer-right"><img className='pointer-img' src={arrowright} alt="" /></div>
+
+             <div className="pointer pointer-left">
+                <img className='pointer-img' src={arrowleft} alt="" />
+             </div>
+
+             <div className="pointer pointer-right">
+                <img className='pointer-img' src={arrowright} alt="" />
+            </div>
+            
             </div>
 
         </div>
