@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'; // Import React Router components
 import Mainpage from './Mainpage';
 import Todolist from './components/Todolist';
-import TodoItem from './components/TodoItem';
+import TodoItem from './components/unused comp/TodoItem';
+import ImageGallery from './components/ImageGallery';
 
 // Main App component
 function App() {
@@ -18,13 +19,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Mainpage />} />
-        <Route path="/Todolist" element={<Todolist
-          
-        />} />
-
-      <Route path="/TodoItem" element={<TodoItem
-         
-        />} />
+        <Route path="/Todolist" element={<Todolist/>} />
+        <Route path="/TodoItem" element={<TodoItem/>} />
+        <Route path="/ImageGallery" element={<ImageGallery/>} />
       </Routes>
 
       <>

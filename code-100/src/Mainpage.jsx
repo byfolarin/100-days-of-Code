@@ -20,7 +20,11 @@ const Mainpage = () => {
             </div>
 
              <div className="grid-item">
-              
+             <p className='item-p' >
+                        <Link to="/ImageGallery" className='list-to'>
+                               Image Gallery
+                        </Link>
+                  </p>
             </div>
 
              <div className="grid-item">
