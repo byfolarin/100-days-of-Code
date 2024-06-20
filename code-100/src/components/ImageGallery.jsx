@@ -8,9 +8,27 @@ import img5 from '../assets/images/img5.jpeg'
 const ImageGallery = () => {
   return (
     <div>
+
+
+      
+
+
+
+
       <div className="img-container">
+        
         <img src={img1} alt="" />
+
+
+        <div className="pointer-arr">
+            <div className="left pointer"></div>
+            <div className="right pointer"></div>
+        </div>
+
       </div>
+
+
+
       <div className="grid-img">
                 <div className="img-1 slide">
                     <img src={img1} alt="" />
@@ -44,7 +62,6 @@ const ImageGallery = () => {
                 <div className="img-1 slide">
                     <img src={img5} alt="" />
                 </div>
-
         </div>
         
       </div>
