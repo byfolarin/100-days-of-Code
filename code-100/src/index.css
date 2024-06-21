@@ -236,7 +236,9 @@ li:hover{
 }
 
 .pointer-img {
- color: white;
+  border: 1px solid yellow;
+  color: white;
+  z-index: 1000;
 }
 
 .pointer {
