@@ -9,18 +9,12 @@ import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
 
-    const [imgarr, setImgArr] = useState([img1]);
 
+const imageArray = [img1,img2,img3,img4,img5];
 
-   
-  const setClick =  setImgArr(prev =>{
-      [...prev, img1,img2,img3,img4,img5]
-    });
-
-
-
-
-
+const arrayMap = () =>{
+imageArray.map(i => i)
+}
 
 
   return (
@@ -29,7 +23,7 @@ const ImageGallery = () => {
 
          <div className="img-container">
 
-            <img onClick={setClick} src={imgarr} alt="" />
+            <img src={img4} alt="" />
 
             <div className="pointer-arr">
 
