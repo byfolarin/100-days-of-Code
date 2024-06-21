@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img1 from '../assets/images/img1.jpeg'
 import img2 from '../assets/images/img2.jpeg'
 import img3 from '../assets/images/img3.jpeg'
@@ -8,6 +8,18 @@ import arrowleft from '../assets/images/arrow-left.png'
 import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
+
+    const [imgarr, setImgArr] = useState([]);
+
+    setImgArr(prev =>{
+      [...prev, img1,img2,img3,img4,img5]
+    })
+
+
+
+
+
+
   return (
     <div>
 
