@@ -42,36 +42,39 @@ imageArray.map(i => i)
 
 
       <div className="grid-img">
+
                 <div className="img-1 slide">
                     <img src={img1} alt="" />
                 </div>
+
+
         <div className="img-2 slide">
-                    <div className="img-1 slide">
+                    <div className="img-2 slide">
                         <img src={img2} alt="" />
                     </div>
         </div>
 
 
         <div className="img-3 slide">
-                    <div className="img-1 slide">
+                    <div className="img-3 slide">
                           <img src={img3} alt="" />
                      </div>
         </div>
 
 
 
-        <div className="img-3 slide">
+        <div className="img-4 slide">
 
-                    <div className="img-1 slide">
+                    <div className="img-4 slide">
                         <img src={img4} alt="" />
                     </div>
 
         </div>
 
 
-        <div className="img-4 slide">
+        <div className="img-5 slide">
 
-                <div className="img-1 slide">
+                <div className="img-5 slide">
                     <img src={img5} alt="" />
                 </div>
         </div>
