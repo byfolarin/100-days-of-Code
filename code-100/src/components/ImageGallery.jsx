@@ -10,12 +10,6 @@ import arrowright from '../assets/images/arrow-right.png'
 const ImageGallery = () => {
 
 
-const imageArray = [img1,img2,img3,img4,img5];
-
-const arrayMap = () =>{
-imageArray.map(i => i)
-}
-
 
   return (
     <div>
