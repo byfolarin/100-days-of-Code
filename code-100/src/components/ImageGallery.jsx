@@ -9,6 +9,8 @@ import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
 
+    const [current, setCurrent] = useState ([])
+
 
 
   return (
