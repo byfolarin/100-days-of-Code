@@ -284,3 +284,15 @@ li:hover{
   object-position: calc(50% + 0px) -0
 }
 
+
+
+/* FAQ */
+
+
+.hovered{
+  display: none;
+}
+
+.not-hovered{
+  display: flex;
+}
