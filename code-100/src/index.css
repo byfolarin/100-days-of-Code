@@ -296,3 +296,8 @@ li:hover{
 .not-hovered{
   display: flex;
 }
+
+.cursor-link{
+  cursor: pointer;
+}
+
