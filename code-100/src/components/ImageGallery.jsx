@@ -9,8 +9,10 @@ import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
 
-  const ImageContainer = () => {
-    const [current, setCurrent] = useState(img1)
+  const [current, setCurrent] = useState(img4)
+
+  const handleClick = (newImage) =>{
+    setCurrent (newImage)
   }
 
 
@@ -20,7 +22,6 @@ const ImageGallery = () => {
          <div className="img-container">
 
          <img src={current} alt=""/>
-
             <div className="pointer-arr">
 
              <div className="pointer pointer-left">
@@ -32,7 +33,6 @@ const ImageGallery = () => {
             </div>
             
             </div>
-
         </div>
 
 
@@ -40,20 +40,20 @@ const ImageGallery = () => {
       <div className="grid-img">
 
                 <div className="img-1 slide">
-                    <img src={img1} alt="" />
+                    <img src={img1} onClick={() => handleClick(img1)} alt="" />
                 </div>
 
 
         <div className="img-2 slide">
                     <div className="img-2 slide">
-                        <img src={img2} alt="" />
+                        <img src={img2} onClick={() => handleClick(img2)} alt="" />
                     </div>
         </div>
 
 
         <div className="img-3 slide">
                     <div className="img-3 slide">
-                          <img src={img3} alt="" />
+                          <img src={img3} onClick={() => handleClick(img3)} alt="" />
                      </div>
         </div>
 
@@ -62,7 +62,7 @@ const ImageGallery = () => {
         <div className="img-4 slide">
 
                     <div className="img-4 slide">
-                        <img src={img4} alt="" />
+                        <img src={img4} onClick={() => handleClick(img4)} alt="" />
                     </div>
 
         </div>
@@ -71,7 +71,7 @@ const ImageGallery = () => {
         <div className="img-5 slide">
 
                 <div className="img-5 slide">
-                    <img src={img5} alt="" />
+                    <img src={img5} onClick={() => handleClick(img5)} alt="" />
                 </div>
         </div>
         
