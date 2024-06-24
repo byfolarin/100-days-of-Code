@@ -16,7 +16,6 @@ const ImageGallery = () => {
   return (
     <div>
 
-
          <div className="img-container">
 
             <img src={img4} alt="" />
