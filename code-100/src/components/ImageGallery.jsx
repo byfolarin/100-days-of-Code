@@ -9,8 +9,13 @@ import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
 
-    const [current, setCurrent] = useState ([])
-
+  const ImageContainer = ({img1}) => {
+    const [current, setCurrent] = useState(false)
+  
+    const handleClick = () => {
+      setCurrent(true)
+    }
+  }
 
 
   return (
