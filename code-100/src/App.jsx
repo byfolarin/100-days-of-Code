@@ -5,6 +5,7 @@ import Mainpage from './Mainpage';
 import Todolist from './components/Todolist';
 import TodoItem from './components/unused comp/TodoItem';
 import ImageGallery from './components/ImageGallery';
+import FAQ from './components/FAQ';
 
 // Main App component
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Todolist" element={<Todolist/>} />
         <Route path="/TodoItem" element={<TodoItem/>} />
         <Route path="/ImageGallery" element={<ImageGallery/>} />
+        <Route path="/FAQ" element={<FAQ/>} />
       </Routes>
 
       <>

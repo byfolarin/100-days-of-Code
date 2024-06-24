@@ -10,6 +10,8 @@ const Mainpage = () => {
       <h1>100 Days of Code</h1>
 
       <div className="task-grid">
+
+
             <div className="grid-item">
                   <p className='item-p' >
                         <Link to="/Todolist" className='list-to'>
@@ -17,6 +19,7 @@ const Mainpage = () => {
                         </Link>
                   </p>
             </div>
+
 
              <div className="grid-item">
              <p className='item-p' >
@@ -27,7 +30,11 @@ const Mainpage = () => {
             </div>
 
              <div className="grid-item">
-
+             <p className='item-p' >
+                        <Link to="/FAQ" className='list-to'>
+                              FAQ
+                        </Link>
+                  </p>
             </div>
 
             
