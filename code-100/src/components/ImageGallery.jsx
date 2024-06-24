@@ -10,6 +10,19 @@ import arrowright from '../assets/images/arrow-right.png'
 const ImageGallery = () => {
 
   const [current, setCurrent] = useState(img4)
+  const images = [img1, img2, img3, img4, img5];
+
+  const handleLeftClick = () => {
+    const currentIndex = images.indexOf(current);
+    const newIndex = (currentIndex - 1 + images.length) % images.length; // Handle wrap-around
+    setCurrent(images[newIndex]);
+  };
+
+  const handleRightClick = () => {
+    const currentIndex = images.indexOf(current);
+    const newIndex = (currentIndex + 1) % images.length;
+    setCurrent(images[newIndex]);
+  };
 
   const handleClick = (newImage) =>{
     setCurrent (newImage)
@@ -25,11 +38,11 @@ const ImageGallery = () => {
             <div className="pointer-arr">
 
              <div className="pointer pointer-left">
-                <img className='pointer-img' src={arrowleft} alt="" />
+                <img className='pointer-img' src={arrowleft} onClick={handleLeftClick} alt="" />
              </div>
 
              <div className="pointer pointer-right">
-                <img className='pointer-img' src={arrowright} alt="" />
+                <img className='pointer-img' src={arrowright} onClick={handleRightClick} alt="" />
             </div>
             
             </div>
