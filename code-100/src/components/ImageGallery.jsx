@@ -9,12 +9,8 @@ import arrowright from '../assets/images/arrow-right.png'
 
 const ImageGallery = () => {
 
-  const ImageContainer = ({img1}) => {
-    const [current, setCurrent] = useState(false)
-  
-    const handleClick = () => {
-      setCurrent(true)
-    }
+  const ImageContainer = () => {
+    const [current, setCurrent] = useState(img1)
   }
 
 
@@ -23,7 +19,7 @@ const ImageGallery = () => {
 
          <div className="img-container">
 
-            <img src={img4} alt="" />
+         <img src={current} alt=""/>
 
             <div className="pointer-arr">
 
