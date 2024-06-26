@@ -305,3 +305,28 @@ li:hover{
 
 /* HeroSection */
 
+.hero-section-vid{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 80vh;
+  background-color: #313131;
+  position: absolute;
+}
+
+
+.hero-section-vid h1{
+  position: relative;
+  padding: 8px;
+  width: 50%;
+  text-align: left;
+  z-index: 1000;
+}
+
+.media{
+  width: 100%;
+}
+
+video{
+  width: 100%;
+}
