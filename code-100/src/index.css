@@ -302,3 +302,11 @@ li:hover{
   cursor: pointer;
 }
 
+
+/* HeroSection */
+
+.hero-section-vid{
+  width: 100%;
+  height: 80vh;
+  background-color: #313131;
+}
