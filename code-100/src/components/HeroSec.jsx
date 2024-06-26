@@ -4,7 +4,7 @@ const HeroSec = () => {
   return (
     <div>
       <div className="hero-section-vid">
-        DAREY
+        <h1>Crafting Purpose with Design</h1>
       </div>
     </div>
   )
