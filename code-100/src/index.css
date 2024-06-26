@@ -87,6 +87,7 @@ Link{
 .task-grid{
   display: flex;
   gap: 8px;
+  margin: 32px 0px;
 }
 
 .grid-item{

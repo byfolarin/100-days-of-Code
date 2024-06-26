@@ -6,6 +6,7 @@ import Todolist from './components/Todolist';
 import TodoItem from './components/unused comp/TodoItem';
 import ImageGallery from './components/ImageGallery';
 import FAQ from './components/FAQ';
+import HeroSec from './components/HeroSec';
 
 // Main App component
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/TodoItem" element={<TodoItem/>} />
         <Route path="/ImageGallery" element={<ImageGallery/>} />
         <Route path="/FAQ" element={<FAQ/>} />
+        <Route path="/HeroSection" element={<HeroSec/>} />
       </Routes>
 
       <>

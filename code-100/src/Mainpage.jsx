@@ -36,7 +36,37 @@ const Mainpage = () => {
                         </Link>
                   </p>
             </div>
+            
+      </div>
 
+
+      <div className="task-grid">
+
+
+            <div className="grid-item">
+                  <p className='item-p' >
+                        <Link to="/HeroSection" className='list-to'>
+                               HeroSection
+                        </Link>
+                  </p>
+            </div>
+
+
+             <div className="grid-item">
+             <p className='item-p' >
+                        <Link to="/ImageGallery" className='list-to'>
+                               Image Gallery
+                        </Link>
+                  </p>
+            </div>
+
+             <div className="grid-item">
+             <p className='item-p' >
+                        <Link to="/FAQ" className='list-to'>
+                              FAQ
+                        </Link>
+                  </p>
+            </div>
             
       </div>
            
