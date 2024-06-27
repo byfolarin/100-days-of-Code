@@ -7,7 +7,7 @@ const HeroSec = () => {
         <div className="hero-section-vid">
 
                 <div className="media">
-                    <video src={vide1} width={'520px'}controls muted>
+                    <video src={vide1} autoplay muted controls="false">
                     Your browser doesn't support HTML video
                     </video>
                 </div>

@@ -305,27 +305,35 @@ li:hover{
 
 /* HeroSection */
 
-.hero-section-vid{
+.hero-section-vid {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; /* This aligns the h1 to the bottom by default */
   width: 100%;
   height: 80vh;
   background-color: #313131;
-  position: absolute;
+  position: relative; /* Added for relative positioning */
 }
-
 
 .hero-section-vid h1{
   position: relative;
-  padding: 8px;
-  width: 50%;
+  padding: 16px;
+  width: 90%;
   text-align: left;
   z-index: 1000;
+  color: yellow;
 }
 
-.media{
-  width: 100%;
+.hero-section-vid .media {
+  position: absolute; /* Added for absolute positioning */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures video fills the container */
+  height: 100%; /* Ensures video fills the container */
 }
+
+/* .media{
+  width: 100%;
+} */
 
 video{
   width: 100%;
